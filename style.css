@@ -1,0 +1,18 @@
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+@-webkit-keyframes marky {
+  from { transform: translate(100%, 0);  }
+  to { transform: translate(-100%, 0%); }
+}
+@-moz-keyframes marky {
+  from { transform: translate(100%, 0);  }
+  to { transform: translate(-110%, 0%); }
+}
+@keyframes marky {
+  from { transform: translate(100%, 0);  }
+  to { transform: translate(-110%, 0%); }
+}
