@@ -2,17 +2,14 @@ html,
 body{
   width:100%;
   overflow-x:hidden;
+  background: #f6f7f3;
+  color: #3e3f3d;
 }
 
-@-webkit-keyframes marky {
-  from { transform: translate(100%, 0);  }
-  to { transform: translate(-100%, 0%); }
+.padded {
+  padding: 25px 15px 10px 0px;
 }
-@-moz-keyframes marky {
-  from { transform: translate(100%, 0);  }
-  to { transform: translate(-110%, 0%); }
-}
-@keyframes marky {
-  from { transform: translate(100%, 0);  }
-  to { transform: translate(-110%, 0%); }
+
+.contact {
+  padding: 10px;
 }
